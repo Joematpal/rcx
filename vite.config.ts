@@ -19,12 +19,12 @@ export default defineConfig((configEnv) => ({
       linters: [new EsLinter({ configEnv })],
     }),
     dts({
-      include: ['src/component/'],
+      include: ['src/components/'],
     }),
   ],
   build: {
     lib: {
-      entry: resolve('src', 'component/index.ts'),
+      entry: resolve('src', 'components/index.ts'),
       name: 'rcx',
       formats: ['es', 'umd'],
       fileName: (format) => `rcx.${format}.js`,

@@ -1,6 +1,4 @@
-import React from "react"
-
-interface HelloWorldProps {
+export interface HelloWorldProps {
     text: string
 }
 

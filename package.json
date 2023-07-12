@@ -17,8 +17,8 @@
     "prepare": "husky install",
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
-    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
+    "lint:fix": "eslint --fix './src/**/*.{jsx,ts,tsx}'",
+    "format": "prettier --write src/**/*.{ts,tsx,css} --config ./.prettierrc",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

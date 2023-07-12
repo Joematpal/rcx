@@ -12,7 +12,7 @@ import * as packageJson from './package.json'
 // https://vitejs.dev/config/
 export default defineConfig((configEnv) => ({
 
-       plugins: [
+    plugins: [
     react(),
     tsConfigPaths(),
     linterPlugin({
